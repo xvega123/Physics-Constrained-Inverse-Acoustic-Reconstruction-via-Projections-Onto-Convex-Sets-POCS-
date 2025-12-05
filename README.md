@@ -38,6 +38,6 @@ The proposed method was benchmarked against Linear Interpolation, IDW, and Krigi
 ## Code Availability
 The source code for this project is available upon request. Please contact the author via email for access.
 
-## 📬 Contact
+## Contact
 For any inquiries regarding the code or research, please contact:
 **Chanho Park** xvegaasd@gm.gist.ac.kr
