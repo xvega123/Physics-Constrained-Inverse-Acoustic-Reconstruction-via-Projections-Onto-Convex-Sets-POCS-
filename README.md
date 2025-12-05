@@ -2,13 +2,9 @@
 
 Implementation of a **physics-constrained inverse solver** based on **Projections Onto Convex Sets (POCS)** for reconstructing coherent acoustic fields from sparse, irregular, or occluded sensor measurements.
 
-> **⚠️ Source Code Access:**
-> The source code for this project is maintained in a separate branch. 
-> Please switch to the **[Codes](../../tree/Codes)** branch to view and download the implementation.
-
 ---
 
-## 📖 Overview
+## Overview
 Conventional interpolation methods (e.g., Kriging, IDW) rely on smoothness priors that often suppress oscillatory wave physics, failing to capture diffraction patterns in measurement gaps. 
 
 This project introduces a **training-free iterative solver** that enforces the **Acoustic Dispersion Relation** as a physical constraint. By iterating between data consistency (physical domain) and physics consistency (spectral domain), the algorithm successfully recovers complex topological features like interference fringes and spiral arms within large shadow zones.
@@ -18,14 +14,14 @@ This project introduces a **training-free iterative solver** that enforces the *
 
 ---
 
-## 🚀 Key Features
+## Key Features
 * **Physics-Constrained Solver:** Uses a "Resonant Tapered Filter" in the spectral domain to enforce the Helmholtz equation without needing training data.
 * **Superior Structural Fidelity:** Outperforms standard interpolants in Structural Similarity Index (SSIM) across various scenarios (e.g., Doppler sources, rotating quadrupoles).
 * **Gap Filling & Extrapolation:** Capable of reconstructing fields in large shadow zones and extrapolating wave propagation beyond sparse sensor arrays.
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 The proposed method was benchmarked against Linear Interpolation, IDW, and Kriging across five canonical scenarios.
 
 | Benchmark Case | Normalized $L_2$ Error (Lower is Better) | SSIM (Higher is Better) |
@@ -39,9 +35,9 @@ The proposed method was benchmarked against Linear Interpolation, IDW, and Krigi
 
 ---
 
-## 💻 Code Availability
-The complete source code, including the POCS solver implementation and benchmark scripts, is located in the **`Codes`** branch of this repository.
+## Code Availability
+The source code for this project is available upon request. Please contact the author via email for access.
 
-To access the code:
-1.  Click the **branch selector** (the dropdown button that says **main** at the top-left).
-2.  Select **Codes**.
+## 📬 Contact
+For any inquiries regarding the code or research, please contact:
+**Chanho Park** xvegaasd@gm.gist.ac.kr
